@@ -6,6 +6,7 @@
         <nav>
             <router-link class="nav-item" to="/">Home</router-link>
             <router-link class="nav-item" to="/login"> login</router-link>
+            <router-link class="nav-item" to="/dashboard"> Dashboard</router-link>
         </nav>
     </div>
 </template>
