@@ -59,7 +59,57 @@
         </div>
 
         <div class="especie">
-
+            <h2>Especies registradas</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="../assets/icono-pez.png" alt="">
+                    <h3 id="especie-pez">Especie</h3>
+                    <h3 id="nom-cienti">Nombre Cientifico</h3>
+                    <h3 id="familia">Familia</h3>
+                    <h3 id="biologo-id">Biologo</h3>
+                    <details>
+                        <summary>Ver más</summary>
+                        <h3 id="fecha-captura">Fecha avistamiento</h3>
+                        <h3 id="ubicacion">Ubicaciones</h3>
+                    </details>
+                </div>
+                <div class="card">
+                    <img src="../assets/icono-pez.png" alt="">
+                    <h3 id="especie-pez">Especie</h3>
+                    <h3 id="nom-cienti">Nombre Cientifico</h3>
+                    <h3 id="familia">Familia</h3>
+                    <h3 id="biologo-id">Biologo</h3>
+                    <details>
+                        <summary>Ver más</summary>
+                        <h3 id="fecha-captura">Fecha avistamiento</h3>
+                        <h3 id="ubicacion">Ubicaciones</h3>
+                    </details>
+                </div>
+                <div class="card">
+                    <img src="../assets/icono-pez.png" alt="">
+                    <h3 id="especie-pez">Especie</h3>
+                    <h3 id="nom-cienti">Nombre Cientifico</h3>
+                    <h3 id="familia">Familia</h3>
+                    <h3 id="biologo-id">Biologo</h3>
+                    <details>
+                        <summary>Ver más</summary>
+                        <h3 id="fecha-captura">Fecha avistamiento</h3>
+                        <h3 id="ubicacion">Ubicaciones</h3>
+                    </details>
+                </div>
+                <div class="card">
+                    <img src="../assets/icono-pez.png" alt="">
+                    <h3 id="especie-pez">Especie</h3>
+                    <h3 id="nom-cienti">Nombre Cientifico</h3>
+                    <h3 id="familia">Familia</h3>
+                    <h3 id="biologo-id">Biologo</h3>
+                    <details>
+                        <summary>Ver más</summary>
+                        <h3 id="fecha-captura">Fecha avistamiento</h3>
+                        <h3 id="ubicacion">Ubicaciones</h3>
+                    </details>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -67,7 +117,8 @@
 <style>
     .container{
         width: 100%;
-        height: 1000px;
+        height: auto;
+        padding: 50px 0;
         box-sizing: border-box;
     }
 
@@ -75,6 +126,7 @@
         width: 200px;
         height: auto;
         padding: 20px;
+        margin: 10px;
         background: rgb(236, 236, 236);
         box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     }
@@ -88,6 +140,12 @@
     }
 
     .biologo h2{
+        font-size: 3rem;
+        color: #fff;
+        text-shadow: 0 0 10px rgb(126, 126, 126);
+    }
+
+    .especie h2{
         font-size: 3rem;
         color: #fff;
         text-shadow: 0 0 10px rgb(126, 126, 126);
