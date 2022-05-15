@@ -61,7 +61,6 @@
 
     .form-section_right {
         width: 100%;
-        height: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -133,6 +132,7 @@
 
         .form-section_left{
             width: 100%;
+            margin: 0;
         }
 
         .form-section_left img{
@@ -231,12 +231,12 @@
         }
 
         .form-section_right{
-            padding: 30px;
+            padding: 0;
         }
 
         .form-section_right form {
             grid-template-columns: 1fr;
-            gap: 1rem;
+            gap: 0;
         }
 
         .form-section_right h3 {

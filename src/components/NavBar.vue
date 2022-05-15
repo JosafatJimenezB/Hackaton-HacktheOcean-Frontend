@@ -9,25 +9,61 @@
     </div>
 </template>
 
-<style scoped>
+<style>
     .navbar{
-        max-width: 1280px;
+        width: 100%;
         height: 100px;
+        max-width: 1366px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin: 0 auto;
     }
 
-    .navbar.scrolled{
-        background-color: var(--bg-color-transparent);
-        box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(20px);
-    }
-
     .logo img{
         padding-top: 10px;
         height: 50px;
+    }
+
+
+    @media screen and (min-width: 992px) and (max-width: 1366px) {
+        .navbar{
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .logo img{
+            padding-top: 10px;
+            height: 50px;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        .navbar{
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .logo img{
+            padding-top: 10px;
+            height: 40px;
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 767px) {
+        .navbar{
+            width: 100%;
+        }
+
+        .logo img{
+            padding-top: 10px;
+            height: 40px;
+            margin-left: 30px;
+        }
+
+        nav{
+            margin-right: 30px;
+        }
     }
 
 </style>

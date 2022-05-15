@@ -72,7 +72,7 @@
     }
 
 
-    @media screen and (min-width: 991px) and (max-width: 1366px){
+    @media screen and (min-width: 992px) and (max-width: 1366px){
         
         .container{
             width: 100%;
@@ -103,7 +103,7 @@
     }
 
 
-    @media screen and (min-width: 768px) and (max-width: 990px){
+    @media screen and (min-width: 768px) and (max-width: 991px){
         
         .container{
             width: 100%;
@@ -138,7 +138,7 @@
         
         .container{
             width: 100%;
-            padding: 100px 20px;
+            padding: 100px 0;
         }
 
         .container h2{
