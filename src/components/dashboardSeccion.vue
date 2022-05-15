@@ -141,6 +141,7 @@
     }
 
     .biologo a {
+        text-decoration: none;
         margin-top: 50px;
         padding: 15px 30px;
         background: rgba(255, 255, 255, .3);
@@ -154,7 +155,7 @@
         transition: background .3s ease-out;
     }
 
-    .form-section_right a:hover{
+    .biologo a:hover{
         background: rgba(255, 255, 255, 0.5);
     }
 
