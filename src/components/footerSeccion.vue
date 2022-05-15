@@ -25,8 +25,10 @@
         box-sizing: border-box;
     }
 
-    .info, .logo, .links{
-        width: auto%;
+    .info, 
+    .logo, 
+    .links{
+        width: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -47,5 +49,77 @@
         text-align: start;
         text-decoration: none;
     }
+
+
+    @media screen and (min-width: 992px) and (max-width: 1366px){
+        .container{
+            padding: 30px 50px;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .info,
+        .logo, 
+        .links{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px){
+        .container{
+            padding: 30px 30px;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .info,
+        .logo, 
+        .links{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img{
+            height: 50px;
+        }
+    }
+
+
+    @media screen and (min-width: 300px) and (max-width: 767px){
+        .container{
+            display: grid;
+            grid-template-columns: 1fr;
+            row-gap: 1rem;
+        }
+
+        .info,
+        .logo, 
+        .links{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img{
+            height: 50px;
+        }
+    }
+
+
 
 </style>
