@@ -138,7 +138,7 @@
         
         .container{
             width: 100%;
-            padding: 100px 0;
+            padding: 100px 20px;
         }
 
         .container h2{
@@ -153,11 +153,11 @@
         .form{
             width: 80%;
             margin: 0 auto;
+            padding: 30px 10px;
         }
 
-
         .form form input{
-            width: 1005;
+            width: 100%;
             height: 22px;
             margin: 0;
             font-size: 1rem;

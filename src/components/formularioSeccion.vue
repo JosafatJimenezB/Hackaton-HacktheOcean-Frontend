@@ -230,6 +230,15 @@
             width: 100%;
         }
 
+        .form-section_right{
+            padding: 30px;
+        }
+
+        .form-section_right form {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
         .form-section_right h3 {
             font-size: 2rem;
             font-weight: 700;
