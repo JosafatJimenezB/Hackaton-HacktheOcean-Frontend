@@ -235,20 +235,9 @@
             font-weight: 700;
         }
 
-        .form-section_right form {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
-        }
-
         .form-section_right label {
             font-size: 1.3rem;
             font-weight: 400;
-        }
-
-        .form-section_right input {
-            width: 160px;
-            height: 22px;
-            margin: 5px 0 15px;
         }
     }
 
