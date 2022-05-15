@@ -56,6 +56,7 @@
                     </details>
                 </div>
             </div>
+            <a href="/#/registroBiologo">Registrar biologo</a>
         </div>
 
         <div class="especie">
@@ -137,6 +138,24 @@
 
     .biologo{
         width: 100%;
+    }
+
+    .biologo a {
+        margin-top: 50px;
+        padding: 15px 30px;
+        background: rgba(255, 255, 255, .3);
+        font-size: 1rem;
+        color: #fff;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 4px 8px 0px #59491E29;
+        cursor: pointer;
+        transition: background .3s ease-out;
+    }
+
+    .form-section_right a:hover{
+        background: rgba(255, 255, 255, 0.5);
     }
 
     .biologo h2{
