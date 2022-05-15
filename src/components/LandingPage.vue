@@ -119,7 +119,7 @@
         }
         
         .text-container{
-            padding: 100px 30px 0;
+            padding: 0;
             text-align: center;
         }
 
@@ -151,16 +151,19 @@
         .container{
             width: 100%;
             grid-template-columns: 1fr;
-            padding: 0 50px;
+            padding: 0;
+            gap: 0;
         }
         
         .text-container{
-            padding: 50px 30px 0;
+            padding: 0 30px;
+            height: auto;
             text-align: center;
         }
 
         .container b{
-            bottom: 1rem;
+            color: #fff;
+            bottom: 6rem;
             right: 1rem;
             font-size: 1rem; 
         }
@@ -182,8 +185,13 @@
             font-size: 1rem;
         }
 
+        .img-container{
+            margin: 0;
+            padding: 0;
+        }
+
         .img-container img{
-            width: 90%;
+            width: 70%;
         }
     }
 
