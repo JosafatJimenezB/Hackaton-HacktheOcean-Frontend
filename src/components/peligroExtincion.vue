@@ -92,9 +92,9 @@
 
 <style scoped>
     .container{
-        padding: 150px 100px 0;
+        padding: 150px 100px;
         background: #fff;
-        height: 900px;
+        height: auto;
     }
 
     .text-container h2{
@@ -183,4 +183,140 @@
         object-fit: cover;
     }
     
+
+     @media screen and (min-width: 992px) and (max-width: 1366px){
+        .container{
+            padding: 100px 0;
+            height: auto;
+        }
+
+        .text-container h2{
+            text-align: start;
+            font-size: 3rem;
+        }
+
+        .info-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .text-container p{
+            font-size: 1.2rem;
+            text-align: justify;
+            line-height: 2rem;
+        }
+
+        .img-slider{
+            width: 100%;
+        }
+
+        .slide{
+            position: relative;
+            width: 100%;
+        }
+
+        .slide img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .container-cards{
+            width: 100%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .card{
+            position: relative;
+            width: 100%;
+        }
+
+        .card-info{
+            position: absolute;
+        }
+     }
+
+
+     @media screen and (min-width: 768px) and (max-width: 991px){
+        
+         .container{
+            padding: 50px 30px;
+            height: auto;
+         }
+
+        .text-container h2{
+            text-align: start;
+            font-size: 2.4rem;
+        }
+
+        .info-container{
+            grid-template-columns: repeat(2, 1fr);
+            padding: 0 ;
+        }
+
+        .text-container p{
+            font-size: 1rem;
+            line-height: 1rem;
+        }
+
+        .img-slider{
+            width: 100%;
+            padding-top: 100px;
+        }
+
+        .container-cards{
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            padding: 0;
+        }
+
+        .card{
+            position: relative;
+            width: 100%;
+        }
+
+        .card-info{
+            position: absolute;
+        }
+     }
+
+
+
+     @media screen and (min-width: 300px) and (max-width: 767px){
+        
+         .container{
+            padding: 50px 30px;
+            height: auto;
+         }
+
+        .text-container h2{
+            font-size: 2rem;
+        }
+
+        .info-container{
+            grid-template-columns: 1fr;
+            padding: 0 ;
+        }
+
+        .text-container p{
+            line-height: 1.3rem;
+        }
+
+        .img-slider{
+            padding-top: 30px;
+        }
+
+        .container-cards{
+            grid-template-columns: 1fr;
+            padding: 0;
+        }
+
+        .card{
+            position: relative;
+            width: 100%;
+        }
+     }
+
+
 </style>

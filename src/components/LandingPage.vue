@@ -81,5 +81,112 @@
         width: 90%;
     }
 
+    @media screen and (min-width: 992px) and (max-width: 1366px){
+        
+        
+        .text-container{
+            padding: 100px 50px 0;
+        }
+
+        .container b{
+            bottom: 1.4rem;
+            right: 1.4rem;
+            font-size: 1.5rem; 
+        }
+
+        .text-container h1{
+            font-size: 3rem;
+        }
+
+        .text-container p{
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .img-container{
+            padding: 100px 0 0;
+        }
+
+        .img-container img{
+            width: 90%;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px){
+        .container{
+            grid-template-columns: 1fr;
+            padding: 0 50px;
+        }
+        
+        .text-container{
+            padding: 100px 30px 0;
+            text-align: center;
+        }
+
+        .container b{
+            bottom: 1rem;
+            right: 1rem;
+            font-size: 1rem; 
+        }
+
+        .text-container h1{
+            font-size: 3rem;
+        }
+
+        .text-container p{
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .img-container{
+            padding: 100px 0 0;
+        }
+
+        .img-container img{
+            width: 90%;
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 767px){
+        .container{
+            width: 100%;
+            grid-template-columns: 1fr;
+            padding: 0 50px;
+        }
+        
+        .text-container{
+            padding: 50px 30px 0;
+            text-align: center;
+        }
+
+        .container b{
+            bottom: 1rem;
+            right: 1rem;
+            font-size: 1rem; 
+        }
+
+        .text-container h1{
+            font-size: 2rem;
+        }
+
+        .text-container p{
+            font-size: 1rem;
+            margin-bottom: 40px;
+        }
+
+        .img-container{
+            padding: 0;
+        }
+
+        .text-container a{
+            font-size: 1rem;
+        }
+
+        .img-container img{
+            width: 90%;
+        }
+    }
+
+
 
 </style>
