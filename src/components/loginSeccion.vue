@@ -12,7 +12,7 @@
                 <div class="form-container">
                     <img src="">
                     <h2>Iniciar Sesión</h2>
-                    <form action="/dashboard" method="post">
+                    <form action="/#/dashboard">
                         <label for="user"><i class="uil uil-user"></i> User</label>
                         <br>
                         <input type="email" name="user" id="user">
