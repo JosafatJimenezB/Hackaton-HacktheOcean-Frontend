@@ -72,4 +72,97 @@
     }
 
 
+    @media screen and (min-width: 991px) and (max-width: 1366px){
+        
+        .container{
+            width: 100%;
+            height: auto;
+            padding: 100px 0;
+        }
+
+        .container h2{
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        .container p{
+            font-size: 1.5rem;
+        }
+
+        .form{
+            width: 60%;
+        }
+
+
+        .form form input{
+            width: 300px;
+            height: 22px;
+            margin-right: 40px;
+            font-size: 1rem;
+        }
+    }
+
+
+    @media screen and (min-width: 768px) and (max-width: 990px){
+        
+        .container{
+            width: 100%;
+            height: auto;
+            padding: 100px 0;
+        }
+
+        .container h2{
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .container p{
+            font-size: 1rem;
+        }
+
+        .form{
+            width: 60%;
+        }
+
+
+        .form form input{
+            width: 300px;
+            height: 22px;
+            margin-right: 40px;
+            font-size: 1rem;
+        }
+    }
+
+
+    @media screen and (min-width: 300px) and (max-width: 767px){
+        
+        .container{
+            width: 100%;
+            padding: 100px 0;
+        }
+
+        .container h2{
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .container p{
+            font-size: 1rem;
+        }
+
+        .form{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+
+        .form form input{
+            width: 1005;
+            height: 22px;
+            margin: 0;
+            font-size: 1rem;
+        }
+    }
+
+
 </style>
