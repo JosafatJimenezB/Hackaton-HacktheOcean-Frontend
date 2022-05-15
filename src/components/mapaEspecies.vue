@@ -1,6 +1,7 @@
 <template>
     <div class="container">
-        <iframe src="http://ssig.conabio.gob.mx/JavaBridge/extincion/index.html" frameborder="0"></iframe>
+        <h2>Mapa de especies marinas</h2>
+        <iframe src="http://geoportal.conabio.gob.mx/#!l=peces:1@m=mixto" frameborder="0"></iframe>
     </div>
 </template>
 
@@ -9,6 +10,11 @@
         width: 100%;
         height: 800px;
         margin: none;
+        background: #fff;
+    }
+
+    .container h2{
+        font-size: 3rem;
     }
 
     iframe{
