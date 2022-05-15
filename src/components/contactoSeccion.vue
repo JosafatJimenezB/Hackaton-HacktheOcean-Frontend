@@ -16,7 +16,7 @@
         margin: 0;
         width: 100%;
         height: auto;
-        padding: 100px 0;
+        padding: 150px 0 100px;
         background: #fff;
     }
 
