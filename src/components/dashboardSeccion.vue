@@ -68,7 +68,7 @@
     .container{
         width: 100%;
         height: 1000px;
-        padding: 50px 0;
+        box-sizing: border-box;
     }
 
     .card {
@@ -87,11 +87,18 @@
         width: 100%;
     }
 
+    .biologo h2{
+        font-size: 3rem;
+        color: #fff;
+        text-shadow: 0 0 10px rgb(126, 126, 126);
+    }
+
     .cards{
         width: 100%;
         display: flex;
-        justify-content: space-between;
-        /* background: red; */
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
         margin: 0 auto;
     }
 
