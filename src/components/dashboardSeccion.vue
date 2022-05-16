@@ -3,6 +3,7 @@
         <div class="biologo">
             <h2>Biologos registrados</h2>
             <div class="cards">
+
                 <div class="card">
                     <img src="../assets/user.png" alt="">
                     <h3 id="nombre">Nombre</h3>
@@ -183,4 +184,27 @@
 </style>
 
 <script>
+import BiologoService from "../services/BiologoService";
+
+export default {
+    name: "list_biologos",
+    data() {
+        return {}
+    },
+    methods: {
+        getAllBiologos(){
+            BiologoService.getAll()
+            .then(response =>{
+                console.log(response.data)
+            })
+            .catch(e =>{
+                console.log(e)
+            })
+        }
+    },
+    mounted() {
+      this.getAllBiologos();
+  }
+}
+
 </script>
