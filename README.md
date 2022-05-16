@@ -84,6 +84,15 @@ Esta se encuentra en el siguiente repositorio:
 ![](./vistas/view2.jpg)
 ![](./vistas/view3.jpg)
 
+## Campaña publicitaria par la difusion del proyecto
+
 ---
 
-© Oceanautas 2022
+![](./vistas/publicidad1.png)
+![](./vistas/publicidad2.png)
+![](./vistas/publicidad3.png)
+![](./vistas/publicidad4.png)
+
+---
+
+© Oceanautas 2022 :mexico:
