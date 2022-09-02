@@ -95,4 +95,19 @@ Esta se encuentra en el siguiente repositorio:
 
 ---
 
+### Creadores de Diseño UI / UX
+[Jesús Álvarez](https://github.com/khisus19)
+
+### Creadores de Frontend
+[Josafat Jimenez](https://github.com/josafatjimenezb)
+[Jesús Álvarez](https://github.com/khisus19)
+
+
+### Creadores de Backend
+[Urivan Rubio](https://github.com/Urivan07)
+[José Ricardo](https://github.com/jricardocam)
+[Raul Quintero](https://github.com/raulquintero13)
+
+
+
 © Oceanautas 2022 :mexico:
